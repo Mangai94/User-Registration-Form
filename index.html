@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" /><link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <script src="main.js"></script>
+   <div class="mainDiv">
+       <form name="myForm"  onsubmit="return submitForm()">
+          <table>
+              <tr>
+                  <td>Full Name</td>
+                  <td>
+                      <div class="icondiv">
+                        <label for="fullname">
+                            <i class="fa fa-user"></i>
+                       </label>
+                        </div> 
+                    <input class="inputStyle" type="text" placeholder="Full Name" name="fullname" id="fullname">
+                        
+                  </td>
+              </tr>
+              <tr>
+                <td>Address Line 1</td>
+                <td>
+                    <div class="icondiv">
+                    <label for="adline1">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                    </label>
+                    </div>
+                    <input class="inputStyle" type="text" name="adline1" placeholder="Address Line 1" id="adline1">
+                    
+                </td>
+              </tr>
+              <tr>
+                <td>Address Line 2</td>
+                <td>
+                    <div class="icondiv">
+                    <label for="adline2">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                    </label>
+                    </div>
+                    <input class="inputStyle" type="text" name="adline2" placeholder="Address Line 2" id="adline2">
+                    
+                </td>
+              </tr>
+              <tr>
+                <td>City</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="city">
+                            <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                    <input class="inputStyle" type="text" name="city" placeholder="City" id="city">
+                </td>
+              </tr>
+              <tr>
+                <td>State/Province/Region</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="state">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                    <input class="inputStyle" type="text" name="state" placeholder="State/Province/Region" id="state">
+                    
+                </td>
+              </tr>
+              <tr>
+                <td>Postal Code/ZIP</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="postalcode">
+                                <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                    <input class="inputStyle" type="text" name="postalcode" placeholder="Postal Code/ZIP" id="postalcode">
+                    
+                </td>
+              </tr>
+              <tr>
+                <td>Country</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="country"><i class="fa fa-map-o" aria-hidden="true"></i></label>
+                    </div>
+                    <select id="country" name="country" class="selectStyle">
+                        <option value="Afganisthan">Afganisthan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="India">India</option>
+                        <option value="Iran">Iran</option>
+                        <option value="Iraq">Iraq</option>
+                    </select>
+                    
+                </td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="email">
+                            <i class="fa fa-user"></i>
+                        </label>
+                    </div>
+                    <input class="inputStyle" name="email" type="email" placeholder="Email" id="email">
+                </td>
+              </tr>
+              <tr>
+                <td>Phone number</td>
+                <td>
+                    <div class="icondiv">
+                        <label for="phone">
+                            <i class="fa fa-user"></i>
+                        </label>
+                    </div>
+                    <input class="inputStyle" type="text"  name="phone" placeholder="Phone number" id="phone">
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                    <button type="submit">Submit</button>
+                  </td>
+              </tr>
+          </table> 
+       </form>
+   </div> 
+   
+</body>
+</html>

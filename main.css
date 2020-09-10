@@ -1,0 +1,45 @@
+.mainDiv
+{
+    width: 730px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #e9ecef;
+    margin-top: 30px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+table tr td:nth-of-type(1)
+{
+   width: 290px;
+   padding-left: 10px;
+}
+
+.icondiv{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: #e9ecef;
+    border: 1px solid #767676;
+}
+
+.inputStyle{
+    height: 25px;
+    width: 300px;
+    margin-left: -5px;
+}
+
+.selectStyle{
+    height: 30px;
+    width: 308px;
+    margin-left: -5px;
+}
+
+table tr:nth-last-of-type(1) td:nth-of-type(1)
+{
+    text-align: center;
+}
