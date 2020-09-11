@@ -7,6 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" /><link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: #f5f5f5;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .container{
+                width: 100%;
+            }
+        }
+        @media only screen and (max-width: 992px) {
+            .container{
+                width: 750px;
+            }
+        }
+        @media only screen and (max-width: 1200px) {
+            .container{
+                width: 970px;
+            }
+        }
+        @media only screen and (min-width: 1200px) {
+            .container{
+                width: 1170px;
+            }
+        }
+        .container{
+            margin: auto;
+            margin-top: 20px;
+        }
+        header h2 {
+            float: left;
+            color: #94969e;
+        }
+        header nav {
+            float: right;
+        }
+        header nav ul li {
+            float: left;
+            text-decoration: none;
+            list-style: none;
+            padding: 10px 20px 10px 20px;
+            border-radius: 5px;
+            color: #017afe;
+        }
+        header nav ul li.active {
+            background-color: #017afe;
+            color: #fff;
+        }
+
+        main {
+            clear: both;
+            margin-top: 20px;
+            padding-top: 40px;
+            border-top: 0.25px solid #94969e;
+        }
+        main .banner {
+            padding: 30px 20px 50px 20px;
+            background-color: #e8ecef;
+            text-align: center;
+        }
+        main .banner .heading {
+            font-size: 70px;
+            margin: 30px 0 0 0;
+        }
+        main .banner .text {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        main .banner .link-button {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            display: inline-block;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        main .banner #sign-up {
+            color: #fff;
+            background-color: #28a743;
+        }
+        main .banner #launch {
+            color: #fff;
+            background-color: #007bfe;
+            margin-top: 20px;
+        }
+        .articles {
+            margin: 0px 0px 50px 0px;
+        }
+        .articles .listing {
+            float: left;
+            width: 50%;
+        }
+        .articles .listing .sub-heading {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .articles .listing .text {
+            font-size: 16px;
+            font-weight: 500;
+            padding-right: 40px;
+        }
+        .clear-div {
+            clear: both;
+        }
+        footer {
+            clear: both;
+            margin-top: 60px;
+            padding: 20px 0px 30px 0px;
+            border-top: 0.25px solid #94969e;
+            color: #94969e;
+            font-size: 20px;
+        }
+        footer span {
+            color: #007bfe;
+        }
+    </style>
 </head>
 <body>
    <script src="main.js"></script>
@@ -133,6 +250,59 @@
           </table> 
        </form>
    </div> 
+
+   <div class="container">
+    <header>
+        <h2>Starter template lacodeid</h2>
+        <nav>
+            <ul>
+                <li class="active">Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="clear-div"></div>
+    <main>
+        <div class="banner">
+            <p class="heading">Jumbotron Heading</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget. Maecenas congue efficitur nisl, at suscipit massa iaculis at.</p>
+            <a href="javascript:void(0);" class="link-button" id="sign-up">Sign up today</a>
+            <br/>
+            <a href="javascript:void(0);" class="link-button" id="launch">Launch demo modal</a>
+        </div>
+        <div class="articles">
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+            <div class="listing">
+                <p class="sub-heading">Subheading</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus libero odio, ac ultrices nibh pretium eget.</p>
+            </div>
+        </div>
+        <div class="clear-div"></div>
+    </main>
+    <footer>
+        Starter @<span>lacodeid.com</span> 2017
+    </footer>
+</div>
    
 </body>
 </html>
